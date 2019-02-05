@@ -1,0 +1,27 @@
+{
+  "name": "vpn-new",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "lint": "eslint --ext .ts,.vue ./",
+    "lintfix": "npm run lint -- --fix"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not IE < 11"
+  ],
+  "dependencies": {
+    "nuxt-ts": "^2.4.2",
+    "vue-property-decorator": "^7.3.0",
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.2.0",
+    "@typescript-eslint/parser": "^1.2.0",
+    "eslint": "^5.13.0",
+    "eslint-config-typescript": "^1.1.0",
+    "eslint-plugin-vue": "^5.1.0",
+    "typescript": "3.2.1"
+  }
+}
